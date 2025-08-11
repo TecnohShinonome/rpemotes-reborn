@@ -3,7 +3,7 @@
 Config = {
     MenuLanguage = 'ja', -- Change the language of the menu here
 
-    EnableCancelKeybind = true,
+    EnableCancelKeybind = formatPlayerNameTag,
     CancelEmoteKey = 'X',
 
     MenuKeybindEnabled = true,
@@ -13,7 +13,7 @@ Config = {
     keybindKVP = "rpemotes",
     NotificationsAsChatMessage = false,
     Search = true, -- Used to enable or disable the search feature in the menu.
-    CancelPreviousEmote = false, -- If turned on, playing an emote will cancel the previous one.
+    CancelPreviousEmote = true, -- If turned on, playing an emote will cancel the previous one.
     DisableControlsInMenu = false,
 
     MenuTitle = '',
@@ -26,7 +26,7 @@ Config = {
     DisarmPlayerOnEmote = false,
     AllowPunchingDuringEmote = false,
     AllowEmoteInVehicle = true,
-    AllowInWater = false,
+    AllowInWater = true,
 
     -- Ragdoll
     RagdollEnabled = false,
@@ -45,12 +45,12 @@ Config = {
     AnimalEmotesEnabled = true,
 
     -- Hands Up
-    HandsupEnabled = false,
-    HandsupKeybind = 'Y',
-    HandsupKeybindEnabled = false,
-    HandsupInCar = false,
+    HandsupEnabled = true,
+    HandsupKeybind = 'X',
+    HandsupKeybindEnabled = true,
+    HandsupInCar = true,
     ReplayEmoteAfterHandsup = true,
-    HoldToHandsUp = false,
+    HoldToHandsUp = true,
 
     -- Pointing
     PointingEnabled = true,
@@ -76,14 +76,14 @@ Config = {
     AllowVisionsToggling = false,
 
     -- News Camera (/newscam)
-    NewscamEnabled = false,
+    NewscamEnabled = true,
 
     DisableIdleCam = true,
 
     -- Preview Ped : Shows a preview of the emote on the player's ped next to the emote menu. Note that resmon will increase when this when emotes are being previewed.
-    PreviewPed = true,
+    PreviewPed = false,
 
-    CheckForUpdates = true,
+    CheckForUpdates = false,
     DebugDisplay = false,
 }
 
