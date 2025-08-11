@@ -23,9 +23,9 @@ if Config.ExpressionsEnabled then
         end
     end, false)
 
-    TriggerEvent('chat:addSuggestion', '/mood', 'Set your current mood/expression.',
-        { { name = "expression", help = "/moods for a list of valid moods" } })
-    TriggerEvent('chat:addSuggestion', '/moods', 'List available walking moods/expressions.')
+    TriggerEvent('chat:addSuggestion', '/mood', Translate('mood'),
+        { { name = "expression", help = Translate('moodhelp') } })
+    TriggerEvent('chat:addSuggestion', '/moods', Translate('moods2'))
 
 
     local function LoadPersistentExpression()

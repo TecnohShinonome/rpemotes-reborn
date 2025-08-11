@@ -4,7 +4,7 @@ if not Config.BinocularsEnabled then return end
 RegisterCommand("binoculars", function()
     UseBinocular()
 end, false)
-TriggerEvent('chat:addSuggestion', '/binoculars', 'Use binoculars', {})
+TriggerEvent('chat:addSuggestion', '/binoculars', Translate('binoculars'), {})
 
 local fov = 40.0
 local index = 0

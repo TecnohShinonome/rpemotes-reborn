@@ -1,7 +1,7 @@
 -- FOR ALL KEYBINDS, GET THE BUTTON STRING HERE: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
 
 Config = {
-    MenuLanguage = 'en', -- Change the language of the menu here
+    MenuLanguage = 'ja', -- Change the language of the menu here
 
     EnableCancelKeybind = true,
     CancelEmoteKey = 'X',

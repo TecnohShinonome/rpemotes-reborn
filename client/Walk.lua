@@ -102,8 +102,8 @@ end
 if Config.WalkingStylesEnabled then
     RegisterCommand('walks', function() WalksOnCommand() end, false)
     RegisterCommand('walk', function(_, args, _) WalkCommandStart(tostring(args[1])) end, false)
-    TriggerEvent('chat:addSuggestion', '/walk', 'Set your walkingstyle.', { { name = "style", help = "/walks for a list of valid styles" } })
-    TriggerEvent('chat:addSuggestion', '/walks', 'List available walking styles.')
+    TriggerEvent('chat:addSuggestion', '/walk', Translate('walk'), { { name = "style", help = Translate('walkhelp') } })
+    TriggerEvent('chat:addSuggestion', '/walks', Translate('walks'))
 end
 
 CreateExport('toggleWalkstyle', function(bool, message)

@@ -5,7 +5,7 @@ RegisterCommand("newscam", function()
     UseNewscam()
 end, false)
 
-TriggerEvent('chat:addSuggestion', '/newscam', 'Use newscam', {})
+TriggerEvent('chat:addSuggestion', '/newscam', Translate('newscam'), {})
 
 local fov = 40.0
 local index = 0
